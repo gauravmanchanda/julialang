@@ -1,0 +1,13 @@
+{
+  "name": "julialang",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Julia Language Support for Atom",
+  "repository": "https://github.com/gauravmanchanda/julialang",
+  "license": "MIT",
+  "engines": {
+    "atom": ">0.50.0"
+  },
+  "dependencies": {
+  }
+}
