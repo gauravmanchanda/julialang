@@ -1,0 +1,16 @@
+# See https://atom.io/docs/latest/creating-a-package#menus for more details
+'context-menu':
+  '.overlayer':
+      'Enable julialang': 'julialang:toggle'
+
+'menu': [
+  {
+    'label': 'Packages'
+    'submenu': [
+      'label': 'julialang'
+      'submenu': [
+        { 'label': 'Toggle', 'command': 'julialang:toggle' }
+      ]
+    ]
+  }
+]
